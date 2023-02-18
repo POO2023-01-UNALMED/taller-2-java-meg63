@@ -20,7 +20,7 @@ public class Auto {
 		return cantidad;
 		
 	}
-	public String verficarIntegridad() {
+	public String verificarIntegridad() {
 		if(registro==motor.registro) {
 			for(int i=0;i>asientos.length;i++) {
 				if(asientos[i]!=null) {

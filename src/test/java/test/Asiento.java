@@ -1,9 +1,9 @@
 package test;
 
-public class Asiento {
-	public String color;
-	public int precio;
-	public int registro;
+public class Asiento{
+	String color;
+	int precio;
+	int registro;
 	public void cambiarColor(String color) {
 		switch(color) {
 		case "blanco":this.color="blanco";
